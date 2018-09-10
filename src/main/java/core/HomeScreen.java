@@ -55,7 +55,7 @@ public class HomeScreen extends Application{
 	private void setupCardsAnimation(Pane canvas) {
 		Image img = null;
 		try {
-			img = new Image(new FileInputStream("src/main/resources/cores/cards/aceS.png"));
+			img = new Image(new FileInputStream("src/main/resources/core/cards/aceS.png"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
